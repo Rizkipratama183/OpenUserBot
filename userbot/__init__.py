@@ -52,17 +52,17 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", 1287613)
-API_HASH = os.environ.get("API_HASH", b31151a1dd663e9538b79a5afdf5da07)
+API_KEY = os.environ.get("API_KEY", "1287613")
+API_HASH = os.environ.get("API_HASH", "b31151a1dd663e9538b79a5afdf5da07")
 
 # Photo Chat - Get this value from http://antiddos.systems
 API_TOKEN = os.environ.get("API_TOKEN", None)
 API_URL = os.environ.get("API_URL", "http://antiddos.systems")    
     
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", 1BVtsOHgBu24AAhATiCBpTWK9hgPK11Mu4Hbdrdd66SPrp3R50yebePiUc0f246sMrUJg-q8fP_I7sGFGC85ShJgU0ojhjb6-0WSFMP84hpF6iSSMZx5axU9DvOMjtyz6CT4JyOAbfZ-nLRxJOg57EVXZazhvt7L59CZZU4hqLThQvNK0XnrAhcEZUgdtsg7Iph99-UAhdy5p98Cm4f8P94e6GNXCbKJ9wefEodrXzza76PwRu3fbB0hm_1fk-P85YKXFXOhNPiPvGFKQsq9a7tauOu5YulXHnxRi2k9vqinsXQCcs0vomLRxma3aZk6cHyBcxinV0odMtVRgjbjGVtf7ZkHdXDk=)
+STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOHgBu24AAhATiCBpTWK9hgPK11Mu4Hbdrdd66SPrp3R50yebePiUc0f246sMrUJg-q8fP_I7sGFGC85ShJgU0ojhjb6-0WSFMP84hpF6iSSMZx5axU9DvOMjtyz6CT4JyOAbfZ-nLRxJOg57EVXZazhvt7L59CZZU4hqLThQvNK0XnrAhcEZUgdtsg7Iph99-UAhdy5p98Cm4f8P94e6GNXCbKJ9wefEodrXzza76PwRu3fbB0hm_1fk-P85YKXFXOhNPiPvGFKQsq9a7tauOu5YulXHnxRi2k9vqinsXQCcs0vomLRxma3aZk6cHyBcxinV0odMtVRgjbjGVtf7ZkHdXDk=")
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", -492505987))
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "-492505987"))
 
 # Userbot logging feature switch.
 BOTLOG = sb(os.environ.get("BOTLOG", "True"))
@@ -74,11 +74,11 @@ PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 # Heroku Credentials for updater.
 HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", 7ca04981-b77a-407f-a580-627af0282177)
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "7ca04981-b77a-407f-a580-627af0282177")
 
 # Github Credentials for updater and Gitupload.
-GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", OpenUserBot)
-GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", ee3478dffc9ea26e91db89799962ef6ed4de1eeb)
+GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", "OpenUserBot")
+GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "ee3478dffc9ea26e91db89799962ef6ed4de1eeb")
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
@@ -125,7 +125,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", Clown Cyber)
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Clown Cyber")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "Indonesia"))
