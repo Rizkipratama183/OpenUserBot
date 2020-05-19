@@ -164,7 +164,7 @@ TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY",
 # Genius lyrics get this value from https://genius.com/developers both has same values
 GENIUS_API_TOKEN = os.environ.get("GENIUS", True)
 # Genius lyrics get this value from https://genius.com/developers both has same values
-GENIUS = os.environ.get("GENIUS_API_TOKEN", LV3R5X9024-uD3UGzw_7Z090QUx43EPa_dEUpUj26F5oEw7598stRAD6GvSO2z2U)
+GENIUS = os.environ.get("GENIUS_API_TOKEN", "LV3R5X9024-uD3UGzw_7Z090QUx43EPa_dEUpUj26F5oEw7598stRAD6GvSO2z2U")
 
 
 # Init Mongo
@@ -176,7 +176,7 @@ def is_mongo_alive():
     try:
         MONGOCLIENT.server_info()
     except BaseException:
-        return False
+        return False"
     return True
 
 
