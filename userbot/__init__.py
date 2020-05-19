@@ -50,6 +50,8 @@ if CONFIG_CHECK:
         "Please remove the line mentioned in the first hashtag from the config.env file"
     )
     quit(1)
+#Quotes API Token
+QUOTES_API_TOKEN =os.environ.get("QOUTES_API_TOKEN", "21958215-520f-4460-9b05-5751920f67a5")
 
 # Telegram App KEY and HASH
 API_KEY = os.environ.get("API_KEY", "1287613")
@@ -83,7 +85,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "ee3478dffc9ea26e91d
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/mkaraniya/OpenUserBot.git")
+    "https://github.com/Rizkipratama183/OpenUserBot.git")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
