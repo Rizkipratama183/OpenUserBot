@@ -84,7 +84,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "ee3478dffc9ea26e91d
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/Rizkipratama183/OpenUserBot.git")
-UPSTREAM_REPO_BRENCH = os.environ.get("UPSTREAM_REPO_BRENCH, "https://github.com/mkaraniya/OpenUserBot.git")
+UPSTREAM_REPO_BRENCH = os.environ.get("UPSTREAM_REPO_BRANCH, "https://github.com/mkaraniya/OpenUserBot.git")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
