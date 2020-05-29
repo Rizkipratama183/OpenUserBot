@@ -58,7 +58,7 @@ API_KEY = os.environ.get("API_KEY", "1287613")
 API_HASH = os.environ.get("API_HASH", "b31151a1dd663e9538b79a5afdf5da07")
 
 # Photo Chat - Get this value from http://antiddos.systems
-API_TOKEN = os.environ.get("API_TOKEN", None)
+API_TOKEN = os.environ.get("API_TOKEN", "21958215-520f-4460-9b05-5751920f67a5")
 API_URL = os.environ.get("API_URL", "http://antiddos.systems")    
     
 # Userbot Session String
@@ -96,7 +96,7 @@ DB_URI = os.environ.get("DATABASE_URL", None)
 MONGO_URI = os.environ.get("MONGO_URI", None)
 
 # OCR API key
-OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
+OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", "69a15874ea88957")
 
 # remove.bg API key
 REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
@@ -106,8 +106,8 @@ CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
 GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
 
 # OpenWeatherMap API Key
-OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
-WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
+OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", "9857d9956ac29abdd218b58359655143")
+WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "Indonesia/Jakarta")
 
 # Lydia API
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
@@ -116,11 +116,11 @@ LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
 UB_BLACK_LIST_CHAT = os.environ.get("UB_BLACK_LIST_CHAT", "")
 
 # Telegraph 
-TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", None)
+TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "♤■Clown_Cyber■♧")
     
 # Anti Spambot Config
-ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
-ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
+ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "True"))
+ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "True"))
 
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
